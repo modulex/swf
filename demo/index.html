@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<body>
+<p>this is swf@1.0.0 demo</p>
+<script src="/mx_modules/modulex-debug.js"></script>
+<script src="/mx_modules/ua-debug.js"></script>
+<script src="/mx_modules/feature-debug.js"></script>
+<script src="/mx_modules/meta.js"></script>
+<script>
+    modulex.config({
+        base: '/mx_modules',
+        packages: {
+            'swf': {
+                filter: isCoverage ? 'coverage' : isBuild ? 'debug' : '',
+                base: isBuild ? '/build/swf' : '/lib/swf'
+            }
+        }
+    });
+    modulex.use('swf',function(swf){
+        //  TODO with swf
+    });
+</script>
+</body>
+</html>
