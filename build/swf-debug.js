@@ -1,3 +1,8 @@
+/*
+Copyright 2014, modulex-swf@1.0.1
+MIT Licensed
+build time: Thu, 16 Oct 2014 06:39:42 GMT
+*/
 modulex.add("swf", ["dom"], function(require, exports, module) {
 var dom = require("dom");
 /*
@@ -363,7 +368,7 @@ _swf_ = function (exports) {
     return ' ' + key + '=' + '"' + value + '"';
   }
   exports = SWF;
-  SWF.version = '1.0.0';
+  SWF.version = '1.0.1';
   return exports;
 }();
 module.exports = _swf_;

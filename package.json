@@ -1,6 +1,6 @@
 {
     "name": "modulex-swf",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "yiminghe <yiminghe@gmail.com>",
     "engines": {
         "node": "~0.11"
@@ -55,6 +55,7 @@
         "simulate-dom-event": "^1.0.1",
         "precommit-hook": "^1.0.7",
         "xtemplate":"3.2.2",
+        "gulp-wrapper": "^0.1.5",
         "gulp-xtemplate": "^1.1.0"
     },
     "precommit": [
@@ -62,6 +63,7 @@
     ],
     "scripts": {
         "start": "node --harmony server",
+        "publish": "gulp tag",
         "test": "",
         "lint": "gulp lint",
         "browser-test": "mocha-phantomjs http://localhost:8034/tests/browser/runner.html",
