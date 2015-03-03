@@ -1,27 +1,15 @@
 {
     "name": "modulex-swf",
     "author": "yiminghe <yiminghe@gmail.com>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/kissyteam/swf.git"
-    },
-    "ignore": [
-        "**/*",
-        "!build/**/*",
-        "!lib/**/*",
-        "!meta/**/*",
-        "!index.js"
-    ],
     "dependencies": {
         "modulex": "*",
-        "modulex-feature": "modulex-feature#1.x",
-        "modulex-ua": "modulex-ua#1.x",
-        "modulex-dom": "modulex-dom#1.x"
+        "modulex-feature": "modulex/feature#1.x",
+        "modulex-ua": "modulex/ua#1.x",
+        "modulex-dom": "modulex/dom#1.x"
     },
     "devDependencies": {
-        "modulex-util": "modulex-util#1.x",
-        "modulex-json": "modulex-json#1.x",
-        "modulex-querystring": "modulex-querystring#1.x"
+        "modulex-util": "modulex/util#1.x",
+        "modulex-json": "modulex/json#1.x",
+        "modulex-querystring": "modulex/querystring#1.x"
     }
 }
